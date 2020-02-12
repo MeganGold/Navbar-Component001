@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <title>Navigational Component</title>
     <link rel="stylesheet" href="Navbar Component.css">
+    <link rel="stylesheet" href="Resources/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 
-   <nav>
-       <section>
-           <i>Logo</i>
-           <h1>High Hopes</h1>
-           <h3>Tech</h3>
-       </section>
-       <ul>
-           <li>Technologies</li>
-           <li>Reference Guides</li>
-           <li>Feedback</li>
-       </ul>
-       <section>
-           <div class="searchContainer">
-               <i class="fas fa-search"></i>
-                   <input type="text" class="searchBox" placeholder="Search">
-           </div>
-           <button>Sign In</button>
-       </section>
-   </nav>
+<nav>
+    <section id="spaceTech">
+        <i class="fas fa-rocket"></i>
+        <a href="#"><h1>Space Tech</h1></a>
+    </section>
+    <ul>
+        <a href="#" class="listLink">
+            <li class="listItems">Technologies</li>
+            <i class="fas fa-sort-down"></i></a>
+        <a href="#" class="listLink">
+            <li class="listItems">Reference Guides</li>
+            <i class="fas fa-sort-down"></i></a>
+        <a href="#" class="listLink">
+            <li class="listItems">Feedback</li>
+            <i class="fas fa-sort-down"></i></a>
+
+    </ul>
+    <section id="SignIn">
+        <div class="searchContainer">
+            <i class="fas fa-search" id="searchIcon"></i>
+            <input type="text" class="searchBox" placeholder="Search">
+        </div>
+        <button>Sign In</button>
+    </section>
+</nav>
 
 </body>
 </html>
